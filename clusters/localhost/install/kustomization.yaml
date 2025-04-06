@@ -9,3 +9,5 @@ labels:
 
 resources:
   - ../../../apps/ee-medicine-inventory
+components:
+  - ../../../components/version-developers
