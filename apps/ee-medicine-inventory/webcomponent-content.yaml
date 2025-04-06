@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: ee-medicine-inventory-content
+spec:
+  microFrontend: ee-medicine-inventory
+  element: ee-medicine-inventory
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?ee-medicine-inventory(/.*)?$"
