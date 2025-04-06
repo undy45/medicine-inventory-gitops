@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: ee-project-cd # v spoločnom klastri je nasadených viacero takýchto objektov
+  namespace: ee-wac-hospital-project
+spec:
+  wait: true
+  interval: 42s
+  path: clusters/wac-aks
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: ee-project-gitops-repo

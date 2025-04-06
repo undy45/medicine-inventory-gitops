@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: ee-wac-hospital-project
+
+labels:
+  - pairs:
+      app.kubernetes.io/part-of: ee-wac-hospital-project
+      app.kubernetes.io/name: ee-medicine-inventory
+    includeSelectors: true
+    includeTemplates: true
+
+resources:
+  - ../../../apps/ee-medicine-inventory
+
+
+components:
+  - ../../../components/version-release
