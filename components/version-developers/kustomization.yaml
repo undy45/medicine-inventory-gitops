@@ -3,4 +3,4 @@ kind: Component
 images:
   - name: undy45/medicine-inventory
     newName: undy45/medicine-inventory # {"$imagepolicy":  "ee-wac-hospital-project:medicine-inventory:name"}
-    newTag: main.20250405.2314 # {"$imagepolicy": "ee-wac-hospital-project:medicine-inventory:tag"}
+    newTag: main.20250406.0236 # {"$imagepolicy": "ee-wac-hospital-project:medicine-inventory:tag"}
