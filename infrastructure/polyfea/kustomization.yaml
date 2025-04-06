@@ -10,6 +10,6 @@ configMapGenerator:
     options:
       disableNameSuffixHash: true
     literals:
-      - APP_TITLE=Nemocnica WAC Projekt
+      - APP_TITLE=Nemocnica WAC
       - SERVICE_TYPE=NodePort
       - NODE_PORT=30331
