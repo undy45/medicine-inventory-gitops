@@ -3,10 +3,10 @@ kind: Kustomization
 
 labels:
   - pairs:
-      app.kubernetes.io/part-of: ee-wac-hospital-project
+      app.kubernetes.io/part-of: wac-hospital
       app.kubernetes.io/name: ee-medicine-inventory
 
-namespace: ee-wac-hospital-project
+namespace: wac-hospital
 
 resources:
   - cd.kustomization.yaml

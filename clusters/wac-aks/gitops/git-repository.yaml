@@ -2,13 +2,13 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: ee-project-gitops-repo # v spoločnom klastri je nasadených viacero takýchto objektov
-  namespace: ee-wac-hospital-project
+  namespace: wac-hospital
 spec:
   interval: 1m0s
   ref:
     branch: main
   timeout: 1m0s
-  url: https://github.com/undy45/medicine-gitops
+  url: https://github.com/undy45/medicine-inventory-gitops
 
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 # secretRef:

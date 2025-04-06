@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
   - name: undy45/medicine-inventory
-    newName: undy45/medicine-inventory # {"$imagepolicy":  "ee-wac-hospital-project:medicine-inventory:name"}
-    newTag: main.20250406.0236 # {"$imagepolicy": "ee-wac-hospital-project:medicine-inventory:tag"}
+    newName: undy45/medicine-inventory # {"$imagepolicy":  "wac-hospital:medicine-inventory:name"}
+    newTag: main.20250406.0236 # {"$imagepolicy": "wac-hospital:medicine-inventory:tag"}
