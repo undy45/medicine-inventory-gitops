@@ -4,7 +4,11 @@ metadata:
   name: ee-medicine-inventory-content
 spec:
   microFrontend: ee-medicine-inventory
-  element: ee-medicine-inventory
+  # aplication context element
+  element: ee-medicine-app
+  attributes:
+    - name: base-path
+      value: /ee-medicine-app/
   displayRules:
     - allOf:
         - context-name: main-content
