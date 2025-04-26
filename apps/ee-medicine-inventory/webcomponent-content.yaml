@@ -7,6 +7,10 @@ spec:
   # aplication context element
   element: ee-medicine-app
   attributes:
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
     - name: base-path
       value: /ee-medicine-app/
   displayRules:
