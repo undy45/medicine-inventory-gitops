@@ -12,7 +12,7 @@ spec:
     - name: ambulance-id
       value: bobulova
     - name: base-path
-      value: /ee-medicine-app/
+      value: /medicine-app/
   displayRules:
     - allOf:
         - context-name: main-content
