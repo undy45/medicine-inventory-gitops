@@ -10,6 +10,7 @@ labels:
 resources:
   - ../../../apps/ee-medicine-inventory
   - ../../../apps/ee-medicine-webapi
+  - ../../../apps/mongo-express
 
 patches:
   - path: patches/medicine-webapi.service.yaml
