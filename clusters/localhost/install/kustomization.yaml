@@ -9,5 +9,10 @@ labels:
 
 resources:
   - ../../../apps/ee-medicine-inventory
+  - ../../../apps/ee-medicine-webapi
+
+patches:
+  - path: patches/medicine-webapi.service.yaml
 components:
   - ../../../components/version-developers
+  - https://github.com/undy45/medicine-webapi//deployments/kustomize/components/mongodb
