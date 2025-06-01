@@ -6,4 +6,4 @@ images:
   - newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
   - name: undy45/medicine-inventory
     newName: undy45/medicine-inventory # {"$imagepolicy":  "wac-hospital:medicine-inventory:name"}
-    newTag: main.20250601.0332 # {"$imagepolicy": "wac-hospital:medicine-inventory:tag"}
+    newTag: main.20250601.0344 # {"$imagepolicy": "wac-hospital:medicine-inventory:tag"}
