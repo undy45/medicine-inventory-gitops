@@ -4,3 +4,6 @@ images:
   - name: undy45/medicine-inventory
     newName: undy45/medicine-inventory
     newTag: 1.0.3  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  - name: undy45/medicine-webapi
+    newName: undy45/medicine-webapi
+    newTag: 1.0.2
